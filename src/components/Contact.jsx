@@ -1,3 +1,4 @@
+import { TiLocationArrow } from "react-icons/ti";
 import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
 
@@ -12,10 +13,7 @@ const Contact = () => {
     <div id="contact" className="my-20 min-h-96 w-screen  px-10">
       <div className="relative rounded-lg bg-black py-24 text-blue-50 sm:overflow-hidden">
         <div className="absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96">
-          <ImageClipBox
-            src="/img/contact-1.webp"
-            clipClass="contact-clip-path-1"
-          />
+         
           <ImageClipBox
             src="/img/contact-2.webp"
             clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"
@@ -24,11 +22,11 @@ const Contact = () => {
 
         <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
           <ImageClipBox
-            src="/img/swordman-partial.webp"
+            src="https://cdnb.artstation.com/p/assets/images/images/059/810/159/original/atichiipixels-cybercity.gif?1677179718"
             clipClass="absolute md:scale-125"
           />
           <ImageClipBox
-            src="/img/swordman.webp"
+            src="https://cdnb.artstation.com/p/assets/images/images/059/810/159/original/atichiipixels-cybercity.gif?1677179718"
             clipClass="sword-man-clip-path md:scale-125"
           />
         </div>
@@ -44,7 +42,8 @@ const Contact = () => {
           />
 
           <a href="tel:917400303753">
-            <Button title="contact us" containerClass="mt-10 cursor-pointer" />
+            <Button title="contact us"  containerClass="mt-10 cursor-pointer"  />
+        
           </a>
         </div>
       </div>

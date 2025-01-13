@@ -84,7 +84,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
             className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-black px-5 py-2 text-xs uppercase text-white/20"
           >
             {/* Radial gradient hover effect */}
-            <div
+            {/* <div
               className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
               style={{
                 opacity: hoverOpacity,
@@ -92,7 +92,24 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">coming soon</p>
+            <p   className="relative z-20">Register Now</p> */}
+            <div
+  className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
+  style={{
+    opacity: hoverOpacity,
+    background: `radial-gradient(100px circle at ${cursorPosition.x}px ${cursorPosition.y}px, #656fe288, #00000026)`,
+  }}
+/>
+<TiLocationArrow className="relative z-20" />
+<a 
+  href="https://forms.gle/poNq99Y5XG3qma1U8" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="relative z-20"
+>
+  <p>Register Now</p>
+</a>
+
           </div>
         )}
       </div>
@@ -143,7 +160,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 row-span-1 ms-10 md:col-span-1 md:ms-0">
           <BentoCard
-            src="videos/feature-3.mp4"
+            src="https://videos.pexels.com/video-files/2759477/2759477-sd_640_360_30fps.mp4"
             title={
               <>
                 Web <b>D</b>ev
@@ -159,7 +176,7 @@ const Features = () => (
             src="videos/feature-4.mp4"
             title={
               <>
-                Awa<b>r</b>ds
+               <b>a</b>wa<b>r</b>ds
               </>
             }
             description="Celebrate the winners with exciting prizes for top performances in all competitions!"
@@ -178,12 +195,23 @@ const Features = () => (
         </BentoTilt>
 
         <Link to="/events">
-          <Button
+          {/* <Button
             id="watch-trailer"
             title="Event Details"
             leftIcon={<TiLocationArrow />}
             containerClass="flex items-center justify-center self-center"
-          />
+          /> */}
+            <BentoTilt className="bento-tilt_2">
+          <div className="flex size-full flex-col justify-between bg-white p-5">
+            <h1 className="bento-title special-font max-w-64 text-black">
+              f<b>o</b>r m<b>o</b>re i<b>n</b>fo Ab<b>o</b>ut the e<b>v</b>ents.
+            </h1>
+            {/* <p className=" mr-5border-black rounded-full bg-black font-robert-medium text-center text-white" >Connect with us!</p> */}
+
+
+            <TiLocationArrow className="m-5 scale-[5] self-end" />
+          </div>
+        </BentoTilt>
         </Link>
       </div>
     </div>

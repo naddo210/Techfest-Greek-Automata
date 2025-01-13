@@ -42,7 +42,7 @@ const About = () => {
           <p>
             The revolution of Technologies begins—your life, an epic Techfest
           </p>
-          <p className="text-gray-500">
+          <p className="text-gray-500 ">
             Greek Automata is a premier Techfest, where innovation meets
             competition, redefining the future of technology together
           </p>
@@ -53,7 +53,7 @@ const About = () => {
         <div className="mask-clip-path about-image">
           <img
             // src="img/about.webp"
-            src="img/img1.jpeg"
+            src="img/cyberverse.png"
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
           />

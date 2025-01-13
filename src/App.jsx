@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Layout from "./components/Layout";
 import PageNotFound from "./components/PageNotFound";
 import OurTeam from "./components/OurTeam";
+import TestBentoCard from "./components/BentoCard";
 
 function App() {
   return (
@@ -43,7 +44,19 @@ function App() {
           </Layout>
         }
       />
+      
+      <Route
+        path="/ben"
+        element={
+          <Layout>
+            <TestBentoCard/>
+          </Layout>
+        }
+      />
     </Routes>
+    
+
+
   );
 }
 

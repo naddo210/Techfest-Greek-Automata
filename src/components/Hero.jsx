@@ -12,11 +12,11 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
   const [hasClicked, setHasClicked] = useState(false);
-
-  const [loading, setLoading] = useState(true);
+//for  play loader  do true
+  const [loading, setLoading] = useState(false);
   const [loadedVideos, setLoadedVideos] = useState(0);
 
-  const totalVideos = 2;
+  const totalVideos = 3;
   const nextVdRef = useRef(null);
 
   const handleVideoLoad = () => {
@@ -140,7 +140,7 @@ const Hero = () => {
           />
         </div>
 
-        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
+        <h1 className="special-font hero-heading absolute bottom-7 right-5 z-40 text-blue-75">
           <b>A</b>utom<b>a</b>t<b>a</b>
         </h1>
 
@@ -150,7 +150,7 @@ const Hero = () => {
               Gree<b>k</b>
             </h1>
 
-            <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
+            <p className="mt-3 max-w-64 font-robert-regular text-blue-100 text-2xl sm:text-base mb-3">
               18th January, 2025 - SPDT College
               <br />
               Organized by SPDT'ians
