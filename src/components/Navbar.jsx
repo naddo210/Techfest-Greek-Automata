@@ -66,18 +66,18 @@ const NavBar = () => {
   return (
     <div
       ref={navContainerRef}
-      className="fixed inset-x-2 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6"
+      className="fixed inset-x-2 top-4 z-50 h-16 border-none transition-all duration-700 fold:inset-x-1 fold:top-2"
     >
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between sm:text-base p-2">
           {/* Logo and Product button */}
-          <div className="flex items-center gap-7">
+          <div className="flex items-center gap-7 sm:gap-7">
             {/* <img src="/img/logo.png" alt="logo" className="w-10" /> */}
             
             <img
               src="/img/greek automata.webp"
               alt="logo"
-              className="w-10 rounded-full"
+              className="w-10 sm:w-10 rounded-full"
             />
             
            
@@ -103,8 +103,25 @@ const NavBar = () => {
                 </a>
               ))}
             </div>
+<button
+  onClick={toggleAudioIndicator}
+  className="ml-4 sm:ml-10 flex items-center space-x-0.5"
+>
+  <audio ref={audioElementRef} className="hidden" src="/audio/loop.mp3" loop />
+  {[1, 2, 3, 4].map((bar) => (
+    <div
+      key={bar}
+      className={clsx("indicator-line", {
+        active: isIndicatorActive,
+      })}
+      style={{
+        animationDelay: `${bar * 0.1}s`,
+      }}
+    />
+  ))}
+</button>
 
-            <button
+            {/* <button
               onClick={toggleAudioIndicator}
               className="ml-10 flex items-center space-x-0.5"
             >
@@ -125,7 +142,7 @@ const NavBar = () => {
                   }}
                 />
               ))}
-            </button>
+            </button> */}
           </div>
         </nav>
       </header>

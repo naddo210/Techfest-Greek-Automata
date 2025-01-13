@@ -203,7 +203,7 @@ const Features = () => (
             <BentoTilt className="bento-tilt_2">
           <div className="flex size-full flex-col justify-between bg-white p-5">
             <h1 className="bento-title special-font max-w-64 text-black">
-               Abo<b>u</b>t the greek a<b>u</b>to<b>m</b>ata
+            f<b>o</b>r  m<b>o</b>re Abo<b>u</b>t the greek a<b>u</b>to<b>m</b>ata
             </h1>
             {/* <p className=" mr-5border-black rounded-full bg-black font-robert-medium text-center text-white" >Connect with us!</p> */}
 
