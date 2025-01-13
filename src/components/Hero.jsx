@@ -157,7 +157,7 @@ const Hero = () => {
             </p>
 
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScaN3Mrq8Y3H2wpWHIgnUjaaA4P75QO-Ydhna1k9oY-1-KhoQ/viewform"
+              href="https://forms.gle/Czq5aWTjg5U3TDJn9"
               target="_blank"
             >
               <Button

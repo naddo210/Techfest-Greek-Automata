@@ -102,7 +102,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 />
 <TiLocationArrow className="relative z-20" />
 <a 
-  href="https://forms.gle/poNq99Y5XG3qma1U8" 
+  href="https://forms.gle/Czq5aWTjg5U3TDJn9" 
   target="_blank" 
   rel="noopener noreferrer" 
   className="relative z-20"
