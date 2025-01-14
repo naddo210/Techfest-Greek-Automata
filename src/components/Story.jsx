@@ -48,7 +48,7 @@ const FloatingImage = () => {
   return (
     <div id="story" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
-        <p className="font-general text-sm uppercase md:text-[10px]">
+        <p className="font-general text-sm uppercase md:text-[10px] text-center">
           the event location :<b>Chakala JB Nagar, Andheri East, Mumbai, Maharashtra 400059.</b>
         </p>
 
