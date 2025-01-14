@@ -150,7 +150,7 @@ const Features = () => (
             src="videos/feature-2.mp4"
             title={
               <>
-                Blind Co<b>d</b>ing
+                Blind ty<b>p</b>ing
               </>
             }
             description="Showcase your coding skills without real-time feedback. Trust your logic to write flawless code and outshine the competition!"
@@ -163,7 +163,7 @@ const Features = () => (
             src="https://videos.pexels.com/video-files/2759477/2759477-sd_640_360_30fps.mp4"
             title={
               <>
-                Web <b>D</b>ev
+                Web <b>D</b>esign
               </>
             }
             description="Showcase your coding skills without real-time feedback. Trust your logic to write flawless code and outshine the competition!"

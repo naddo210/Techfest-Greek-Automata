@@ -353,7 +353,7 @@ const EventDetails = () => {
               src="img/web development.avif"
               videoSrc="https://videos.pexels.com/video-files/2759477/2759477-sd_640_360_30fps.mp4"
               title={<>Web <b>D</b>evelopment</>}
-              description="Starting At 8:20 AM <br /> Room No: 601"
+              description="Starting At 09:30 AM <br /> Room No: 301"
               isComingSoon
             />
           </BentoTilt>
@@ -361,8 +361,8 @@ const EventDetails = () => {
             <BentoCard
               src="img/blind coding.jpg"
               videoSrc="/videos/feature-2.mp4"
-              title={<>Blind Co<b>D</b>ing</>}
-              description="Starting At 8:20 AM <br /> Room No: 301"
+              title={<>Blind ty<b>p</b>ing</>}
+              description="Starting At 08:30 AM <br /> Room No: 301"
               isComingSoon
             />
           </BentoTilt>
@@ -372,11 +372,11 @@ const EventDetails = () => {
               src="img/ludo.avif"
               videoSrc="https://videos.pexels.com/video-files/4168972/4168972-sd_640_360_25fps.mp4"
               title={<>Lu<b>D</b>o</>}
-              description="Starting At 8:20 AM <br /> Room No: 508"
+              description="Starting At 11:30 AM <br /> Room No: 508"
               isComingSoon
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
             <BentoCard
               src="img/carrom.png"
               videoSrc="https://videos.pexels.com/video-files/5657107/5657107-sd_640_360_25fps.mp4"
@@ -384,13 +384,13 @@ const EventDetails = () => {
               description="Starting At 8:20 AM <br /> Room No: 508"
               isComingSoon
             />
-          </BentoTilt>
+          </BentoTilt> */}
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
             <BentoCard
               src="img/bgmi.png"
               videoSrc="/videos/youtube_video_downloader.mp4"
               title={<>bg<b>m</b>i</>}
-              description="Starting At 8:20 AM <br /> Room No: 508"
+              description="Starting At 09:00 AM <br /> Room No: 308"
               isComingSoon
             />
           </BentoTilt>
@@ -399,7 +399,7 @@ const EventDetails = () => {
               src="img/freefire.png"
               videoSrc="/videos/freefire.mp4"
               title={<>free<b>f</b>ire</>}
-              description="Starting At 8:20 AM <br /> Room No: 508"
+              description="Starting At 09:00 AM <br /> Room No: 508 "
               isComingSoon
             />
           </BentoTilt>
@@ -408,7 +408,7 @@ const EventDetails = () => {
               src="https://cdn.pixabay.com/photo/2022/02/09/14/22/chess-7003571_1280.jpg"
               videoSrc="https://videos.pexels.com/video-files/6688632/6688632-uhd_2560_1440_25fps.mp4"
               title={<>c<b>h</b>ess</>}
-              description="Starting At 8:20 AM <br /> Room No: 508"
+              description="Starting At 10:00 AM <br /> Room No: 508"
               isComingSoon
             />
           </BentoTilt>
@@ -417,7 +417,7 @@ const EventDetails = () => {
               src="/img/debugging.png"
               videoSrc="https://videos.pexels.com/video-files/2278095/2278095-hd_1920_1080_30fps.mp4"
               title={<><b>d</b>ebugging</>}
-              description="Starting At 8:20 AM <br /> Room No: 508"
+              description="Starting At 09:30 AM <br /> Room No: 601"
               isComingSoon
             />
           </BentoTilt>
@@ -426,11 +426,11 @@ const EventDetails = () => {
               src="img/presentation.png"
               videoSrc="https://videos.pexels.com/video-files/5725960/5725960-uhd_2560_1440_30fps.mp4"
               title={<>prese<b>n</b>tatio<b>n</b></>}
-              description="Starting At 8:20 AM <br /> Room No: 508"
+              description="Starting At 10:30 AM <br /> Room No: 601"
               isComingSoon
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
             <BentoCard
               src="img/challenge.png"
               videoSrc="/videos/challenges.mp4"
@@ -438,8 +438,8 @@ const EventDetails = () => {
               description="Starting At 8:20 AM <br /> Room No: 508"
               isComingSoon
             />
-          </BentoTilt>
-          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+          </BentoTilt> */}
+          {/* <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
             <BentoCard
               src="img/final round.png"
               videoSrc="/videos/feature-3.mp4"
@@ -447,8 +447,8 @@ const EventDetails = () => {
               description="Starting At 8:20 AM <br /> Room No: 508"
               isComingSoon
             />
-          </BentoTilt>
-          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+          </BentoTilt> */}
+          {/* <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
             <BentoCard
               src="img/prize.png"
               videoSrc="/videos/victory.mp4"
@@ -456,7 +456,7 @@ const EventDetails = () => {
               description="Starting At 8:20 AM <br /> Room No: 508"
               isComingSoon
             />
-          </BentoTilt>
+          </BentoTilt> */}
 
 
           {/* Additional BentoCards can go here */}

@@ -151,7 +151,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-3 max-w-64 font-robert-regular text-blue-100 text-2xl sm:text-base mb-3">
-              18th January, 2025 - SPDT College
+              18th January, 2025 - SPDT DEGREE COLLEGE
               <br />
               Organized by SPDT'ians
             </p>
