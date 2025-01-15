@@ -156,7 +156,7 @@ const Hero = () => {
              <b>Organized by SPDT'ians.</b> 
             </p>
 
-            <a
+            {/* <a
               href="https://forms.gle/Czq5aWTjg5U3TDJn9"
               target="_blank"
             >
@@ -166,7 +166,7 @@ const Hero = () => {
                 leftIcon={<TiLocationArrow />}
                 containerClass="bg-yellow-300 flex-center gap-1"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
