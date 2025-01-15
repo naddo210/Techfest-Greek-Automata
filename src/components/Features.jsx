@@ -81,7 +81,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
             onMouseMove={handleMouseMove}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-black px-5 py-2 text-xs uppercase text-white/20"
+            className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-black px-5 py-2 text-xs uppercase text-white"
           >
             {/* Radial gradient hover effect */}
             {/* <div
@@ -101,14 +101,14 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
   }}
 />
 <TiLocationArrow className="relative z-20" />
-<a 
+{/* <a 
   href="https://forms.gle/Czq5aWTjg5U3TDJn9" 
   target="_blank" 
   rel="noopener noreferrer" 
   className="relative z-20"
->
+> */}
   <p>Register Now</p>
-</a>
+{/* </a> */}
 
           </div>
         )}
@@ -129,11 +129,22 @@ const Features = () => (
           PPT presentations, and gaming. Showcase your skills, connect with
           innovators, and elevate your digital experience!
         </p>
+          
+        <div className="flex justify-center items-center mt-5"> 
+
+        <h1 className="text-white/50 font-normal text-xl">EVENT SATRTS ON : 18/01/2025</h1>
+        </div>
+
       </div>
+    
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+      <a href="https://forms.gle/3VEZhXP88Rf7nktZ9">
         <BentoCard
+        
+        
           src="videos/feature-1.mp4"
+    
           title={
             <>
               G<b>a</b>ming
@@ -142,10 +153,12 @@ const Features = () => (
           description="Compete in popular games like Free Fire, BGMI, and more. Show off your gaming skills and dominate the leaderboard!"
           isComingSoon
         />
+       </a>
       </BentoTilt>
 
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+          <a href="https://forms.gle/1K9QdpvKPBeayGRY7">
           <BentoCard
             src="videos/feature-2.mp4"
             title={
@@ -156,9 +169,11 @@ const Features = () => (
             description="Showcase your coding skills without real-time feedback. Trust your logic to write flawless code and outshine the competition!"
             isComingSoon
           />
+          </a>
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_1 row-span-1 ms-10 md:col-span-1 md:ms-0">
+          <a href="https://forms.gle/1K9QdpvKPBeayGRY7">
           <BentoCard
             src="https://videos.pexels.com/video-files/2759477/2759477-sd_640_360_30fps.mp4"
             title={
@@ -169,6 +184,7 @@ const Features = () => (
             description="Showcase your coding skills without real-time feedback. Trust your logic to write flawless code and outshine the competition!"
             isComingSoon
           />
+          </a>
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">

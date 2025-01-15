@@ -328,7 +328,7 @@ export const BentoCard = ({ src, videoSrc, title, description, isComingSoon }) =
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">18 Jan 2025</p>
+            <p className="relative z-20">Rigister Now</p>
           </div>
         )}
       </div>
@@ -344,11 +344,13 @@ const EventDetails = () => {
           title="Event Details"
           className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
         />
+        
 
         <div className="seperator mt-8"></div>
-
+       
         <div className="grid min-h-[135vh] w-full grid-cols-2 gap-7">
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+            <a href="https://forms.gle/1K9QdpvKPBeayGRY7">
             <BentoCard
               src="img/web development.avif"
               videoSrc="https://videos.pexels.com/video-files/2759477/2759477-sd_640_360_30fps.mp4"
@@ -356,25 +358,29 @@ const EventDetails = () => {
               description="Starting At 09:30 AM <br /> Room No: 301"
               isComingSoon
             />
+            </a>
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+          <a href="https://forms.gle/1K9QdpvKPBeayGRY7">
             <BentoCard
               src="img/blind coding.jpg"
               videoSrc="/videos/feature-2.mp4"
               title={<>Blind ty<b>p</b>ing</>}
               description="Starting At 08:30 AM <br /> Room No: 301"
               isComingSoon
-            />
+            /> </a>
+            
           </BentoTilt>
          
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+            <a href="https://forms.gle/TxQfci2Pv8494hKp8">
             <BentoCard
               src="img/ludo.avif"
               videoSrc="https://videos.pexels.com/video-files/4168972/4168972-sd_640_360_25fps.mp4"
               title={<>Lu<b>D</b>o</>}
               description="Starting At 11:30 AM <br /> Room No: 508"
               isComingSoon
-            />
+            /></a>
           </BentoTilt>
           {/* <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
             <BentoCard
@@ -386,42 +392,48 @@ const EventDetails = () => {
             />
           </BentoTilt> */}
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+            <a href="https://forms.gle/3VEZhXP88Rf7nktZ9">
             <BentoCard
               src="img/bgmi.png"
               videoSrc="/videos/youtube_video_downloader.mp4"
               title={<>bg<b>m</b>i</>}
               description="Starting At 09:00 AM <br /> Room No: 308"
               isComingSoon
-            />
+            /></a>
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+            <a href="https://forms.gle/3VEZhXP88Rf7nktZ9">
             <BentoCard
               src="img/freefire.png"
               videoSrc="/videos/freefire.mp4"
               title={<>free<b>f</b>ire</>}
               description="Starting At 09:00 AM <br /> Room No: 508 "
               isComingSoon
-            />
+            /></a>
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+            <a href="https://forms.gle/TxQfci2Pv8494hKp8">
             <BentoCard
               src="https://cdn.pixabay.com/photo/2022/02/09/14/22/chess-7003571_1280.jpg"
               videoSrc="https://videos.pexels.com/video-files/6688632/6688632-uhd_2560_1440_25fps.mp4"
               title={<>c<b>h</b>ess</>}
               description="Starting At 10:00 AM <br /> Room No: 508"
               isComingSoon
-            />
+            /></a>
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+     
+            <a href="https://forms.gle/1K9QdpvKPBeayGRY7">
             <BentoCard
               src="/img/debugging.png"
               videoSrc="https://videos.pexels.com/video-files/2278095/2278095-hd_1920_1080_30fps.mp4"
               title={<><b>d</b>ebugging</>}
               description="Starting At 09:30 AM <br /> Room No: 601"
               isComingSoon
-            />
+            /></a>
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+          <a href="https://forms.gle/1K9QdpvKPBeayGRY7">
             <BentoCard
               src="img/presentation.png"
               videoSrc="https://videos.pexels.com/video-files/5725960/5725960-uhd_2560_1440_30fps.mp4"
@@ -429,6 +441,7 @@ const EventDetails = () => {
               description="Starting At 10:30 AM <br /> Room No: 601"
               isComingSoon
             />
+            </a>
           </BentoTilt>
           {/* <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
             <BentoCard
